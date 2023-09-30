@@ -13,19 +13,19 @@
 	<meta charset='UTF-8'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<title>SENDIT - поиск персонала и публикация вакансий</title>
+	<title>SENDIT - доставка сообщений</title>
 
 	<!-- SEO -->
-	<meta name='description' content='Работа со всей России'>
-	<meta name='keywords' content='Работа, Персонал, Вакансии, Профессия, Деньги'>
-	<meta name='author' content='thelabuzov'>
-	<meta name='copyright' content='Дмитрий Лабузов'>
-	<meta property='og:title' content='WORKFLOW - поиск персонала и публикация вакансий'>
-	<meta property='og:description' content='Работа со всей России'>
-	<meta property='og:site_name' content='WORKFLOW - поиск персонала и публикация вакансий'>
-	<meta name='twitter:site' content='thelabuzov'>
-	<meta name='twitter:title' content='WORKFLOW - поиск персонала и публикация вакансий'>
-	<meta name='twitter:description' content='Работа со всей России'>
+	<meta name='description' content='Доставка SMS в 2 клика'>
+	<meta name='keywords' content='SENDIT, SMS, Summit, Сообщения, Рассылка'>
+	<meta name='author' content='sendit'>
+	<meta name='copyright' content='SENDIT'>
+	<meta property='og:title' content='SENDIT - доставка сообщений'>
+	<meta property='og:description' content='Доставка SMS в 2 клика'>
+	<meta property='og:site_name' content='SENDIT - доставка сообщений'>
+	<meta name='twitter:site' content='sendit'>
+	<meta name='twitter:title' content='SENDIT - доставка сообщений'>
+	<meta name='twitter:description' content='Доставка SMS в 2 клика'>
 
 	<!-- Подключение внешних объектов -->
   	<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'>
@@ -52,9 +52,11 @@
 	<?php else: ?>
 		<!-- Выравнивание кнопки пользователя -->
 		<style>
+			.account__outer {
+				width: 100%;
+			}
+
 			.account {
-				display: inline-flex;
-				align-items: center;
 				position: absolute;
 				right: 0;
 				z-index: 2;
@@ -98,7 +100,7 @@
 
 		<section class='form__outer'>
 			<div class='container'>
-				<div class='main__inner'>
+				<div class='main'>
 					<h2>Отправка сообщения</h2>
 
 					<form class='form' action='#' method='post'>
