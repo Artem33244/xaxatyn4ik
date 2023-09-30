@@ -64,6 +64,7 @@ body .popup {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: var(--transition-min);
   background-color: var(--white);
   margin: 6.25rem auto;
   max-width: 26rem;
