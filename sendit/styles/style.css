@@ -250,6 +250,8 @@ input[type=submit]:hover img {
 .header {
   background-color: var(--white);
   font-weight: 700;
+  position: relative;
+  z-index: 1;
 }
 
 .header .menu {
@@ -351,7 +353,7 @@ canvas {
   }
 }
 
-@media (max-width:71.8125em) {
+@media (max-width:71.8125rem) {
   body {
     text-align: center;
   }
@@ -370,7 +372,7 @@ canvas {
   }
 }
 
-@media (max-width:50.85em) {
+@media (max-width:50.85rem) {
 
   body .popup {
     max-width: 18rem;
@@ -387,10 +389,6 @@ canvas {
 
   #login {
     max-width: 12.5rem;
-  }
-
-  .menu {
-    height: 9rem;
   }
 
   .menu>* {
@@ -412,5 +410,14 @@ canvas {
 
   .hero__inner p {
     font-size: 1rem;
+  }
+
+  .form__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form__tel {
+    margin-bottom: 1rem;
   }
 }
